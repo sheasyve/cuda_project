@@ -23,17 +23,12 @@
 #include <fstream>
 #include <Eigen/Dense>
 
+#define _USE_MATH_DEFINES
 #define ll long long
 #define ull unsigned long long
 #define pb push_back
 #define all(x) (x).begin(), (x).end()
 #define rall(v) v.rbegin(), v.rend()
-
-const int INF = 1e9;
-const ll LINF = 1e18;
-const int NINF = -1e9;
-const ll LNINF = -1e18;
-const int MOD = 1e9 + 7;
 
 template <typename T>
 std::vector<T> vector_in(int n) {
