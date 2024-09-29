@@ -1,13 +1,10 @@
 # cuda_project c++ implementation
 
-# Required Packages
-```bash
-sudo apt-get install cmake
-sudo apt-get install libeigen3-dev
-```
+# Steps to build and run
 
-## From the Build folder
-```bash
-cmake ..
-make
-```
+## Install docker
+https://docs.docker.com/desktop/
+
+# Run commands in the cppapplication directory 
+docker build -t ascii_rt .
+docker run ascii_rt
