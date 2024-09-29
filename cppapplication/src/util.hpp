@@ -50,10 +50,4 @@ void vector_out(const std::vector<T> &v) {
     std::cout << '\n';
 }
 
-inline std::mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
-
-inline int rand(int i, int j) {
-    return std::uniform_int_distribution<int>(i, j)(rng);
-}
-
 #endif  // UTIL_HPP
